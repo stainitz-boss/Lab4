@@ -37,7 +37,7 @@ int main()
     setlocale(LC_ALL, "RUS");
 
     int a, b, c;
-    int sum;
+    int sum, res;
 
     printf("Введите номер игрока A: ");
     scanf("%d", &a);
@@ -48,11 +48,8 @@ int main()
 
     sum = a + b + c;
 
-    if (sum % 3 == 0) {
-        printf("Тройка счастливая! Сумма номеров (%d) делится на 3 без остатка.\n", sum);
-    } else {
-        printf("Тройка обычная. Сумма номеров (%d) не делится на 3 без остатка.\n", sum);
-    }
+    res = (sum % 3 == 0);
+    printf("Тройка счастливая? (1-да, 0-нет): %d", res);
 
     return 0;
 }
