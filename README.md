@@ -23,7 +23,8 @@
 5. **Конец**
 
 ### Блок-схема
-<img width="277" height="642" alt="image" src="https://github.com/user-attachments/assets/57fb645e-0a7a-4a87-a548-3c300b3295c5" />
+<img width="272" height="614" alt="image" src="https://github.com/user-attachments/assets/e1bab60f-f6af-4726-bdb0-17a49e0ab2e9" />
+
 
 
 
